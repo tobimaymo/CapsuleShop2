@@ -1,0 +1,40 @@
+.headerimagen {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .ofertasList{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .imgOferta{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .colorOferta{
+    color: #223a82;
+    font-size: 20px;
+  }
+  .centered {
+    font-family: Copperplate;
+    font-size: 43px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .copperplate {
+    font-family: Copperplate;
+    font-size: 25px;
+  }
+  .headercontainer {
+    margin: 0px;
+    box-shadow: 15px 0px 0px 0px rgba(0,0,0,0.50);
+  }
